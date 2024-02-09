@@ -1,0 +1,13 @@
+module math
+	
+let PI = 3.1415926536
+let E  = 2.7182818285
+
+def min(n1, n2)
+	return (n1 < n2 ? n1 : n2)
+
+def max(n1, n2)
+	return (n1 > n2 ? n1 : n2)
+
+def clamp(num, min_num, max_num)
+	return min(max(num,min_num),max_num)

@@ -1,0 +1,189 @@
+let hello = "Hello World!!"
+let one = 1
+(one) = 1/2
+
+let two = 2
+
+print((1,2,3))
+
+print("Hello "+"World" + "!!")
+print(hello + "One More World!!")
+print(hello + (one+1))
+
+print([[1,2,3,4],5,6,7,one])
+
+print(one)
+print(-1+one)
+
+let list = [0,2,3]
+let tuple = (0,2,3)
+
+print(list)
+
+list[0] = list[0]+1
+
+print(list)
+
+print(list[1]+"yade")
+
+print(list[0])
+
+print(- 1)
+
+print("indent")
+
+print(-list[0])
+
+print(1111)
+
+print(print("helloo"))
+
+let negative = -1
+
+print("negative num:"+-negative)
+
+print(True)
+print(False)
+
+if True
+	print("true")
+else
+	print("false")
+	
+let num = 0
+
+while num <= 10
+
+	if num == 0
+		print("zero")
+	elif num == 1
+		print("one")
+	elif num == 2
+		print("two")
+	elif num == 3
+		print("three")
+	else
+		print("other")
+	
+	num += 1
+	
+let i = 0
+while i <= 20
+	print("while test count:"+i)
+	if i % 2 == 0
+		print(i+"is even")
+	else
+		print(i+"is odd")
+	i += 1
+	
+let j = 0
+do
+	print(j+"do")
+	j += 1
+while j < 10
+
+print(random()*10+2)
+
+def hello2()
+	print("hello1")
+	print("hello2")
+
+def power(i)
+	return i * i
+
+def mult(n1, n2)
+	return (n1*n2)
+
+def fact(n)
+	if n == 0
+		return 1
+	else
+		return fact(n - 1) * n
+
+def printX(text, c)
+	let i = 0
+	while(i < c)
+		print(i+":"+text)
+		i = i + 1
+
+	
+hello2()
+print(power(3))
+print(mult(2,4))
+print(fact(6))
+printX("hello10",11)
+
+import "math.txt"
+
+print(1.3*3)
+
+print("hello, world, !!".split(","))
+
+print(hash(1.2))
+
+print([1,2,3,4].join("aa"))
+
+let alist = [1,2,3]
+print(alist)
+print(alist.append("3"))
+print(alist)
+print(alist.pop())
+print(alist)
+
+print((1,2,alist))
+
+num = 4
+print(num)
+num += 2
+print(num)
+num -= 1
+print(num)
+num *= 2
+print(num)
+num /= 4
+print(num)
+num %= 2
+print(num)
+
+print(math.PI)
+
+print((1,2,3,4)[3])
+		
+print(type(type(12)))
+		
+let loop = True
+
+while loop
+	let first_str = input("first num >>> ")
+	if first_str == "s"
+		print("escape loop")
+		loop = False
+	else
+		let first = int(first_str)
+		let symbol = input("symbol >>> ")
+		let last = int(input("last num >>> "))
+		
+		let res = first
+		#aaaaaa
+		if symbol == "+"
+			res += last
+		elif symbol == "-"
+			res = res - last
+		elif symbol == "*"
+			res *= last
+		elif symbol == "/"
+			res /= last
+		else
+			print("error")
+		print("ans >>> "+first+symbol+last+"="+res)
+	
+def pr()
+	return print
+
+print(pr())
+
+pr()("=== HELLO!!! ===")
+
+print(1 == 1)
+
+pr()(print)

@@ -1,0 +1,31 @@
+
+def boardToStr(board)
+	let boardStr = ""
+	let bidx = 0
+	let boardEle
+	while bidx < 9
+		boardEle = board[bidx]
+		if boardEle == 0
+			boardStr += " "
+		elif boardEle == 1
+			boardStr += "o"
+		elif boardEle == 2
+			boardStr += "x"
+		if bidx % 3 == 2
+			boardStr += "\n"
+		bidx += 1
+	return boardStr
+
+
+let board = [0,0,0,0,0,0,0,0,0]
+
+while True
+
+	let idx = int(input("idx put here : "))
+	board[idx] = 1
+	print(boardToStr(board))
+	idx = int(input("idx put here : "))
+	board[idx] = 2
+	print(boardToStr(board))
+	
+

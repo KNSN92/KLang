@@ -1,0 +1,12 @@
+#continue
+let i = 0
+while True
+	print("before")
+	print("i="+i)
+	#continue
+	print("after")
+	i += 1
+
+import "math.txt"
+
+print(math.clamp(19,12, 20))
